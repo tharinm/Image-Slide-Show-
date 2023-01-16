@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slide Show</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      div  {
+        height: 1000px;
+        width: 1000px;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+      }
+
+      h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(97, 97, 112);
+        font-weight: normal;
+      }
+
+      hr{
+        border: 1px solid rgb(44, 144, 148);
+        margin-bottom: 50px;
+        width: 25%;
+      }
+      img {
+        width: 700px;
+        height: 500px;
+        border-radius: 10px;
+        margin-bottom: 150px;
+      }
+
+    </style>
+
+  </head>
+  <body>
+   
+    <div class="content">
+     <h1>Image Slide Show</h1>
+     <hr>
+      <img name="slide" />
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
