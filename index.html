@@ -12,7 +12,7 @@
         justify-content: center;
       }
 
-      div  {
+      div {
         height: 1000px;
         width: 1000px;
         /* background-color: red; */
@@ -20,16 +20,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
       }
 
-      h1{
+      h1 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: rgb(97, 97, 112);
         font-weight: normal;
       }
 
-      hr{
+      hr {
         border: 1px solid rgb(44, 144, 148);
         margin-bottom: 50px;
         width: 25%;
@@ -41,14 +40,18 @@
         margin-bottom: 150px;
       }
 
+      @media only screen and (max-width: 600px) {
+        img {
+          width: 450px;
+          height: auto;
+        }
+      }
     </style>
-
   </head>
   <body>
-   
     <div class="content">
-     <h1>Image Slide Show</h1>
-     <hr>
+      <h1>Image Slide Show</h1>
+      <hr />
       <img name="slide" />
     </div>
   </body>
